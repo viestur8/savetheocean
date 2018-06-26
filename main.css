@@ -1,50 +1,87 @@
-#donate-container{
-    background-color: black;
-}
-.donate-header{
-    background-image: url("images/turtle.jpg");
-    width: 100%;
-    height: auto;
-    }
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat.ttf) format('truetype');
+  }
 
-.donate-header > h1{
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+#navigation{
+    background-color: #161932;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+ 
+}
+.links, .gallery-header {
+    font-family: "Montserrat";
+    color: 9EC6D5;
+}
+ul > li {
+    display:inline;
+    padding: 50px;
 }
 
-.donate-header > h2{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+a {
+    font-family: "Montserrat";
+    color: #9EC6D5;
+    text-decoration: none;
 }
-
-.donate-content{
+#container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
-.box{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: blue;
-    margin: 10px;
-    color: white;
-    text-align: center;
+#gallery{
+    background-color: #161932;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #9EC6D5;
 }
 
-.square{
-    width: 400px;
-    height: 75px;
-    border: 8px solid gray;
-    color: white;
-    font-size: 25px;
-}
+.images{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px;
+} 
 
-.nemo-images > img{
-    height: 500px;
+.images > img {
+    height: 300px;
     width: auto;
+    border: 5px solid #9EC6D5;
+}
+
+#cause, #action {
+    display: flex;
+}
+
+p {
+    font-family: "Montserrat";
+}
+.header{
+    font-family: "Montserrat";
+    color: #161932;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    width: 700px;
+}
+
+#footer {
+    background-color: #161932;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: "Montserrat";
+}
+.footer > img {
+    width: 100px;
 }
