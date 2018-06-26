@@ -1,21 +1,13 @@
 # savetheocean
-Project Title
+Project Title: Save The Ocean
+To raise awareness of how oceans and marine life are affected by human pollution.
 
-Save The Ocean
-To raise awareness of how human polution influences oceans, marine life, and life on earth.
+People can start by being mindful about recycling plastic pollution they discard every day. For example, consider the number of plastic water bottles and plastic Starbucks cups are discarded in a week.
 
-Getting Started
-People can start be being mindful about recycling plastic pollution they discard every day. For example, consider the number of plastic water bottles you discard in a week.
-
-Built With
-Atom editor.
-
-
-
-
+Built with Atom editor
 
 Authors
-Lisa Chan - Initial work - 
-Viesturs Adler -contributor
+Viesturs Adler
+Lisa Chan
 
 
