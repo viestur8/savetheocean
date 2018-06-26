@@ -6,8 +6,6 @@ People can start by being mindful about recycling plastic pollution they discard
 
 Built with Atom editor
 
-Authors
-Viesturs Adler
-Lisa Chan
+Authors // Viesturs Adler and Lisa Chan
 
 
